@@ -1,0 +1,78 @@
+/* app.css */
+
+body {
+  padding-top: 150px;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 22px; /* Ajusta el tamaño del título */
+}
+
+h2 {
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 12px; /* Ajusta el espacio entre botones */
+  font-size: 16px; /* Ajusta el tamaño de la fuente del botón */
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Agrega una animación de transición */
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #0c331c;
+}
+
+.nota {
+  border: 1px solid #333;
+  border-radius: 4px;
+  margin-bottom: 12px; /* Ajusta el espacio entre las notas */
+  padding: 12px;
+  background-color: #333;
+}
+
+.nota p {
+  margin: 0;
+}
+
+.nota button {
+  margin-top: 16px; /* Ajusta el espacio entre el texto y los botones en las notas */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form input,
+.form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.form button {
+  align-self: flex-start;
+}
+
+
+
